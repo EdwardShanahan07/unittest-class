@@ -11,3 +11,12 @@ class Student:
     @property
     def full_name(self):
         return f"{self.first_name} {self.last_name}"
+
+
+    @property
+    def email_address(self):
+        return f"{self.first_name.lower()}.{self.last_name.lower()}@email.com"
+
+
+    def alert_santa(self):
+        self.naughty_list = True
