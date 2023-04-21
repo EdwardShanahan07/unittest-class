@@ -5,7 +5,7 @@ class Student:
         self.first_name = first_name
         self.last_name = last_name
         self.start_date = date.today()
-        self.end_date = date.today + timedelta(days=365)
+        self.end_date = date.today() + timedelta(days=365)
         self.naughty_list = False
 
     @property
